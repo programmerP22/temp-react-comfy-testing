@@ -21,6 +21,7 @@ function App() {
         <Navbar />
         <Sidebar />
         <Routes>
+
           {/* <Route exact path="/">
             <Home />
           </Route>
@@ -40,6 +41,7 @@ function App() {
           <Route exact path="*">
             <Error />
           </Route> */}
+          
           <Route path="/" element={<Home />} />
 
           <Route path="about" element={<About />} />
